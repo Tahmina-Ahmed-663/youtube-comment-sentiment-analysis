@@ -1,0 +1,4 @@
+Experiment,Model,Accuracy,Precision_weighted,Recall_weighted,F1_weighted,Precision_macro,Recall_macro,F1_macro,Training_Time,Prediction_Time,Metric_Time,Total_Time,Note,Training_Time_Readable,Prediction_Time_Readable,Metric_Time_Readable,Total_Time_Readable
+Multiclass_Positive_Negative_Neutral,Linear SVM,0.8839,0.8875,0.8839,0.8842,0.8647,0.877,0.8692,10.656,0.0097,2.4829,13.1485,Full experiment dataset,10.66 seconds,0.01 seconds,2.48 seconds,13.15 seconds
+Multiclass_Positive_Negative_Neutral,Logistic Regression,0.8726,0.8804,0.8726,0.8737,0.8498,0.8743,0.8594,11.2491,0.0099,2.5776,13.8366,Full experiment dataset,11.25 seconds,0.01 seconds,2.58 seconds,13.84 seconds
+Multiclass_Positive_Negative_Neutral,Multinomial Naive Bayes,0.7513,0.7547,0.7513,0.7427,0.7623,0.691,0.7154,0.6046,0.0099,2.0307,2.6452,Full experiment dataset,0.60 seconds,0.01 seconds,2.03 seconds,2.65 seconds
